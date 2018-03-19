@@ -4,5 +4,3 @@ GitBook allows you to organize your book into chapters, each chapter is stored i
 
 
 
-![](/assets/创建maven项目.gif)
-
