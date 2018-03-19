@@ -1,6 +1,4 @@
-# My Awesome Book
+# 关于这边书
 
-This file file serves as your book's preface, a gre  asfsdfsdfdfadf
-
-ghfjfjfgfhjfjhf
+这本书是为整理在工作中使用的数据仓库架构思路及实现。
 
