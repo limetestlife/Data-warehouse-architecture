@@ -19,7 +19,8 @@
   * [第二节 HSQL](chapter22/di-er-jie-hive-shell.md)
 * [第三章 hbase常见使用](chapter23.md)
   * 第一节 hbase的安装
-  * 第二节 hbase-shell
+  * [第二节 hbase-shell](chapter23/di-er-jiehbase-shell.md)
+    * 2.1 查看基础信息命令
 * [第四章](chapter24.md)
 * [第五章](chapter25.md)
 * [第六章](chapter26.md)
