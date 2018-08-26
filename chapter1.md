@@ -1,6 +1,20 @@
-# First Chapter
+# 总论
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+数据仓库：面向主题，集成的，随时间变化的，非易失的数据集合。用于支持管理者的决策过程。
+
+粒度：指数据的细节或汇总程度。细节程度越高，粒度级别越低。粒度级别越低数据量越大，查询细节越高，查询范围越广。数据会以很低的粒度进入仓库。
+
+操作性系统和分析性系统
+
+
+
+分析性系统数据源来自仓库，仓库的数据源来自操作型系统
+
+
+
+数据库架构理：数据仓库组件及其之间的关系。
+
+
 
 
 
