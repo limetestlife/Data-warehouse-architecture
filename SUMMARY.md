@@ -25,5 +25,5 @@
 * [第五章 flink](chapter25.md)
   * [flink基础](chapter25/flinkji-chu.md)
   * [flink开发](chapter25/flinkkai-fa.md)
-* [第六章 zookeeper](chapter26.md)
+* [第六章](chapter26.md)
 
