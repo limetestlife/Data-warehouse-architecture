@@ -27,8 +27,51 @@
   * [flink开发](chapter25/flinkkai-fa.md)
 * [第六章 zookeeper](chapter26.md)
 * [第七章 docker](chapter27.md)
-* [第八章 zookeeper](chapter26.md)
-* [第九章 zookeeper](chapter26.md)
+* [第八章 spark](chapter28.md)
+* [第九章 zookeeper](chapter29.md)
+
+## 第三部分：大数据面试
+
+* [第一章 Hadoop](chapter31.md)
+* [第二章 hive](chapter32.md)
+* [第三章 hbase](chapter33.md)
+* [第四章 kafka](chapter34.md)
+* [第五章 kafka](chapter35.md)
+* [第六章 kafka](chapter36.md)
+* [第七章 kafka](chapter37.md)
+* [第八章 spark](chapter38.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
