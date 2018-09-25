@@ -26,4 +26,11 @@
   * [flink基础](chapter25/flinkji-chu.md)
   * [flink开发](chapter25/flinkkai-fa.md)
 * [第六章 zookeeper](chapter26.md)
+* [第七章 docker](chapter27.md)
+* [第八章 zookeeper](chapter26.md)
+* [第九章 zookeeper](chapter26.md)
+
+
+
+
 
