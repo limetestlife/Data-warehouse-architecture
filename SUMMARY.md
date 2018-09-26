@@ -36,44 +36,9 @@
 * [第二章 hive](chapter32.md)
 * [第三章 hbase](chapter33.md)
 * [第四章 kafka](chapter34.md)
-* [第五章 kafka](chapter35.md)
-* [第六章 kafka](chapter36.md)
-* [第七章 kafka](chapter37.md)
+* [第五章 flink](chapter35.md)
+* [第六章 zookeeper](chapter36.md)
+* [第七章 docker](chapter37.md)
 * [第八章 spark](chapter38.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* [第九章 ](chapter39.md)
 
