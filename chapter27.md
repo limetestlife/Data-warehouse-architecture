@@ -29,6 +29,18 @@ Docker Machine：Docker Machine是一个简化Docker安装的命令行工具，�
 Dockerfile是docker构建镜像的基础，也是docker区别于其他容器的重要特征，正是有了Dockerfile，docker的自动化和可移植性才成为可能。
 
 
+FROM , 从一个基础镜像构建新的镜像
+MAINTAINER , 维护者信息
+ENV , 设置环境变量
+RUN , 非交互式运行shell命令
+ADD , 将外部文件拷贝到镜像里,src可以为url
+WORKDIR /path/to/workdir, 设置工作目录
+USER , 设置用户ID
+VULUME <#dir>, 设置volume
+EXPOSE , 暴露哪些端口
+ENTRYPOINT [‘executable’, ‘param1’,’param2’]执行命令
+CMD [“param1”,”param2”]
+
 
 
 
