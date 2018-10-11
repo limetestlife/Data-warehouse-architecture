@@ -17,6 +17,7 @@
 * [第二章 hive常见使用](chapter22.md)
   * [第一节 hive的安装](chapter22/hivede-an-zhuang.md)
   * [第二节 HSQL](chapter22/di-er-jie-hive-shell.md)
+  * [第三节 hive原理](chapter22/di-san-jie-hive-yuan-li.md)
 * [第三章 hbase常见使用](chapter23.md)
   * [第一节 hbase的安装](chapter23/di-yi-jiehbase-de-an-zhuang.md)
   * [第二节 hbase-shell](chapter23/di-er-jiehbase-shell.md)
@@ -29,6 +30,13 @@
 * [第七章 docker](chapter27.md)
 * [第八章 spark](chapter28.md)
 * [第九章 zookeeper](chapter29.md)
+* [第十章 Sqoop](chapter210.md)
+* [第十一章 Oozie](chapter211.md)
+* [第十二章 ](chapter212.md)
+
+
+
+
 
 ## 第三部分：大数据面试
 
@@ -41,4 +49,12 @@
 * [第七章 docker](chapter37.md)
 * [第八章 spark](chapter38.md)
 * [第九章 ](chapter39.md)
+* [第十章 Sqoop](chapter310.md)
+* [第十一章 Oozie](chapter311.md)
+* [第十二章 ](chapter312.md)
+
+
+
+
+
 
