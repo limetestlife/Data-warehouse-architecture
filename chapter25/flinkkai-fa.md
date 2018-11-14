@@ -1,5 +1,6 @@
-flink的java开发
+flink的java开发  
 pom.xml文件
+
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
@@ -249,3 +250,109 @@ pom.xml文件
     </build>
 </project>
 ```
+
+
+
+
+启动脚本
+```
+flink14 run \
+-m yarn-cluster \
+-yn 7 \
+-ys 1 \
+-ynm flink_ods_bhv_tblog \
+-yd -yD yarn.containers.vcores=1 \
+-c main.ods_bhv_tblog_mian \
+target/flink_ods_bhv_tblog-1.0-SNAPSHOT.jar
+```
+
+主类
+```
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
