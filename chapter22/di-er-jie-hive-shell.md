@@ -43,6 +43,26 @@ instr(str1,str2)      str2在str1中的起始位置，若str1不包含str2则返
 
 ```
 
+```
+select a.d1,a.d2 from (select split(c1,'\t')[3] d1,count(*) d2 from lime_dayh where dt=20181114 group by split(c1,'\t')[3]) a order by a.d1;
+=====
+split(c1,'\t')[3]  把c1字段以tab分隔符拆分成数组，取第4个元素
+group by 分组
+order by 排序
+其与msyql和Oracle的sql不同处在其拆分行为需要作为单独的过程。
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
