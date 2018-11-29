@@ -20,7 +20,7 @@ nohup hive -e 'select substr(c1,1,2) as section_flag,count(*) as num from  lime_
 
 数据库
 show databases;
-show databases like 'h.*';
+show databases like 'liem_.*';
 
 表
 
@@ -52,7 +52,27 @@ order by 排序
 其与msyql和Oracle的sql不同处在其拆分行为需要作为单独的过程。
 ```
 
-
+```
+select b.workid workid,regexp_replace(b.wordkey, '\\\^', ' ') id,b.index index,a1.extend extend from
+(select keyadd.workid,keyword.keycode,keyword.wordkey,keyword.index as index from
+(select * from consumpationuplist_keyword where dt='$date') keyword
+left join
+(select * from consumpationuplist_key_add where dt='$date') keyadd
+on (keyword.keycode=keyadd.keycode)) b
+left outer join
+(select keycode,onkey,concat_ws(':',collect_set(ext)) extend from
+(select keycode,onkey,CONCAT_WS(',',concat('mid=>',mid),concat('read=>',read)) as ext from
+(select keycode,onkey,mid,read ,row_number() over (partition by keycode,onkey order by cast(read as int) desc) rank_code from
+(select keycode,mid,read,wordkey from consumpationuplist_keyword_uid_mid where dt='$date' and (tran>0 || comm>0 || like>0 ||read>0)) a LATERAL VIEW explode(split(wordkey, ',')) aa as onkey) h where rank_code<=200) gb group by keycode,onkey) a1
+on a1.keycode=b.keycode and a1.onkey=b.wordkey;
+===
+regexp_replace sql中转义 \^，hive -e sql.sql中多加一个即\\^ 在多调用一层脚本再多加\\\^ 。在hive -e "SQL"的执行方式中，"'正则表达式'"，正则表达式先被一个单引号括起来，再被一个双引号括起来的，所以正则表达式里面，\\^的第一个\用来解析第二个\，第二个\才真正起到了转义的作用
+concat('mid=>',mid)   字符串拼接
+CONCAT_WS(',',concat('mid=>',mid),concat('read=>',read))   设置连接符的拼接
+concat_ws(':',collect_set(ext))   去重的拼接
+row_number() over (partition by keycode,onkey order by cast(read as int) desc)  分组排序
+a LATERAL VIEW explode(split(wordkey, ',')) aa as onkey  列才分成多行
+```
 
 
 
