@@ -13,7 +13,8 @@
 
 ## 第二部分：仓库工具的使用
 
-* [第一章 Hadoop-shell](chapter21.md)
+* [第一章 Hadoop](chapter21.md)
+  * [小文件问题](chapter21/xiao-wen-jian-wen-ti.md)
 * [第二章 hive常见使用](chapter22.md)
   * [第一节 hive的安装](chapter22/hivede-an-zhuang.md)
   * [第二节 HSQL](chapter22/di-er-jie-hive-shell.md)
@@ -34,10 +35,6 @@
 * [第十一章 Oozie](chapter211.md)
 * [第十二章 ](chapter212.md)
 
-
-
-
-
 ## 第三部分：大数据面试
 
 * [第一章 Hadoop](chapter31.md)
@@ -52,9 +49,4 @@
 * [第十章 Sqoop](chapter310.md)
 * [第十一章 Oozie](chapter311.md)
 * [第十二章 ](chapter312.md)
-
-
-
-
-
 
